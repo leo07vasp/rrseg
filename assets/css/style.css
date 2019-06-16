@@ -2061,6 +2061,8 @@ img.mfp-img {
 }
 .service-2 .thumb a img {
   width: 100%;
+  height: 225px;
+  object-fit: cover;
 }
 .service-2.cleaning-service .content {
   padding: 30px 20px;
