@@ -659,6 +659,16 @@ $('.googleMap-2,.contact-map').each(function(){
         google.maps.event.addDomListener(window, 'load', initialize);
     }
 });
- 
+
+
+
     
 })(jQuery);	
+
+$(function(){
+    var includes = $('[data-include]');
+    $.each(includes, function(){
+      var file = $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
