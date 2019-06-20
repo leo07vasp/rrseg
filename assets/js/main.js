@@ -296,7 +296,7 @@ $('.googleMap-2,.contact-map').each(function(){
         var $long = $this.data('long');
         function initialize() {
             var mapOptions = {
-                zoom: 11.2,
+                zoom: 17.5,
                 scrollwheel: false,
                 center: new google.maps.LatLng($lat, $long),
                 styles: [
