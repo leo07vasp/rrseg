@@ -6,8 +6,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>RR Segurança - Segurança residencial</title>
-    <meta name="description" content="">
+    <title>RR Segurança</title>
+    <meta name="description" content="Sua Segurança em primeiro lugar, cameras, concertina, cerca eletrica, central telefônica, alarme, alarmes, wi-fim, wireless, comercial, residencial">
+    <meta property="og:title" content="RR Segurança - Segurança Residencial e Comercial" />
+    <meta property="og:url" content="http://www.rrsegurancaltr.com.br/" />
+    <meta property="og:description" content="RR Segurança - Segurança Residencial e Comercial">
+    <meta property="og:image" content="http://www.rrsegurancaltr.com.br/assets/images/logo/pp.jpg">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
@@ -338,19 +344,20 @@
                             <h2>Solicite um orçamento</h2>
                         </div>
                         <div class="repair-service-form">
-                            <form action="#">
+                            <form id="contact-form" action="assets/php/mail.php">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <input type="text" placeholder="Nome*">
+                                        <input name="name" type="text" placeholder="Nome*">
                                     </div>
                                     <div class="col-lg-12">
-                                        <input type="text" placeholder="Assunto*">
+                                        <input name="email" type="text" placeholder="Email*">
                                     </div>
                                     <div class="col-lg-12">
                                         <textarea name="message" placeholder="Mensagem*"></textarea>
                                     </div>
                                     <div class="col-lg-12">
                                         <input type="submit" value="Enviar">
+                                        <p class="form-messege"></p>
                                     </div>
                                 </div>
                             </form>
